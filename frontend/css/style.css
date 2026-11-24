@@ -1,0 +1,22 @@
+:root { --ink:#20202b; --muted:#777786; --accent:#b47b62; --paper:#f7f6f4; }
+body { background:var(--paper); color:var(--ink); font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif; }
+.app-nav { background:#24212a; }
+.brand-dot { color:#d5a58d; }
+.hero { background:linear-gradient(115deg,#f1e5de,#f8f2ed 58%,#e9e3df); border:1px solid #eee2dc; }
+.eyebrow { letter-spacing:.16em; color:var(--accent); font-size:.7rem; font-weight:800; }
+.stat-card { background:#fff; padding:1.1rem 1.25rem; border-radius:1rem; box-shadow:0 3px 18px #29202a0a; height:100%; }
+.stat-card span { color:var(--muted); font-size:.82rem; display:block; }
+.stat-card strong { display:block; font-size:1.8rem; margin-top:.25rem; }
+.card { box-shadow:0 4px 22px #29202a0a!important; }
+.table thead th { color:#777786; font-size:.76rem; text-transform:uppercase; letter-spacing:.04em; white-space:nowrap; }
+.table td { font-size:.9rem; white-space:nowrap; }
+.badge-status { padding:.45rem .65rem; border-radius:2rem; font-size:.7rem; letter-spacing:.03em; }
+.status-CONFIRMED { color:#176b45; background:#e4f5ec; }
+.status-PENDING { color:#946200; background:#fff2d5; }
+.status-CANCELLED { color:#9d3434; background:#fbe7e7; }
+.btn-dark { background:#28242d; border-color:#28242d; }
+.btn-dark:hover { background:#453b49; border-color:#453b49; }
+.form-control:focus,.form-select:focus { border-color:#b98a75; box-shadow:0 0 0 .2rem #b98a7525; }
+.action-btn { border:0; background:transparent; padding:.25rem .4rem; font-size:.82rem; }
+.action-btn:hover { text-decoration:underline; }
+@media(max-width:576px){ .hero h1{font-size:1.8rem}.stat-card{padding:.85rem}.stat-card strong{font-size:1.45rem} }
